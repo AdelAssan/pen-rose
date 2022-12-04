@@ -1,0 +1,8 @@
+.page{
+    box-sizing: border-box;
+    background-color: #292929;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+}

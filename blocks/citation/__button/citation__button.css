@@ -1,0 +1,4 @@
+.citation__button-left, .citation__button-right, .citation__wrapper, .citation__dot{
+    display: inline-block;
+    vertical-align: middle;
+}

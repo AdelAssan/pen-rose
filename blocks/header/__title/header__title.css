@@ -1,0 +1,9 @@
+.header__title{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #C445F4;
+    font-size: 64px;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+}

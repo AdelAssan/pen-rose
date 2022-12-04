@@ -1,0 +1,23 @@
+.header__dropdown{
+    display: none;
+}
+
+.header__dropdown_active{
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 52px;
+    display: flex;
+    flex-direction: column;
+    right: 120px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header__dropdown_link{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+}

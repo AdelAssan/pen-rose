@@ -1,0 +1,36 @@
+.content__triangle{
+    background-image: url(../../../images/Triangle.svg);
+    background-size: 680px 589px;
+    height: 589px;
+    width: 680px;
+    position: absolute;
+    top: 255px;
+    z-index: 3;
+    left: 623px;
+    opacity: 1;
+}
+
+.content__triangle_glow{
+    background-image: url(../../../images/TriangleGlow.svg);
+    background-repeat: no-repeat;
+    background-size: 810px 695px;
+    height: 695px;
+    width: 810px;
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    left: 560px;
+    opacity: 0.5;
+}
+
+.content__triangle_shadow{
+    background-image: url(../../../images/Shadow.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 650px;
+    height: 650px;
+    width: 600px;
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    left: 610px;
+}

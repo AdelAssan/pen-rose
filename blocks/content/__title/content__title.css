@@ -1,0 +1,10 @@
+.content__title{
+    background-image: url(../../../images/Title.png);
+    margin: 168px 0 0 168px;
+    background-size: 340px 440px;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 440px;
+    z-index: 4;
+    position: relative;
+}

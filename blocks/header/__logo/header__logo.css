@@ -1,0 +1,95 @@
+.header__logo {
+    transform: scale(0.5,0.5);
+    height: 120px;
+    position: relative;
+    margin: 0 0 0 40px;
+    width: 400px;
+  }
+  
+  .header__logo_left {
+    width: 20px;
+    height: 140px;
+    transform: rotate(-30deg);
+    position: absolute;
+    left: -86px;
+    top: 25px;
+    z-index: 1;
+  }
+  
+  .header__logo_left div {
+    transform: rotate(30deg) skew(30deg);
+    background:  transparent linear-gradient(150deg, #3899FA 0%, #6E0D9A 100%) 0% 0% no-repeat;
+    width: 100%;
+    height: 145px;
+  }
+  
+  .header__logo_left div:after {
+    content: "";
+    background:  transparent linear-gradient(150deg, #3899FA 0%, #6E0D9A 100%) 0% 0% no-repeat;
+    width: 128px;
+    height: 20px;
+    position: absolute;
+    right: -120px;
+  }
+  
+  .header__logo_right {
+    width: 20px;
+    height: 132px;
+    transform: rotate(30deg);
+    position: absolute;
+    left: 55px;
+    top: 3px;
+    z-index: 99;
+  }
+  
+  .header__logo_right div {
+    transform: rotate(30deg) skew(30deg);
+    background: transparent linear-gradient(118deg, #4E81D3 0%, #4E81D3 100%) 0% 0% no-repeat;
+    width: 100%;
+    height: 148px;
+    position: absolute;
+    right: 38px;
+    top: 35px;
+  }
+  
+  .header__logo_right div:after {
+    content: "";
+    background: transparent linear-gradient(120deg, #803DDD 0%, #4E81D3 65%, #4E81D3 100%) 0% 0% no-repeat;
+    width: 123px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    transform: skew(-49deg);
+  }
+  
+  .header__logo_top {
+    width: 20px;
+    height: 147px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 5px;
+    top: -62px;
+    z-index: 2;
+  }
+  
+  .header__logo_top div {
+    transform: rotate(30deg) skew(30deg);
+    background: transparent linear-gradient(50deg, #BF4CFC 0%, #BF4CFC  100%) 0% 0% no-repeat;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    right: 6px;
+    top: -54px;
+  }
+  
+  .header__logo_top div:after {
+    content: "";
+    background: transparent linear-gradient(190deg, #BF4CFC 0%, #386DD1 100%) 0% 0% no-repeat;
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 125px;
+  }
+  
