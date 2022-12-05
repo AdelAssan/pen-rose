@@ -2,6 +2,8 @@ const sliderLine = document.querySelector('.citation__slider');
 const prevBtn = document.querySelector('.citation__button-left');
 const nextBtn = document.querySelector('.citation__button-right');
 const dots = document.querySelectorAll('.citation__dots_non-active');
+const sliderText = document.querySelectorAll('.citation__text');
+const sliderAuthor = document.querySelectorAll('.citation__author');
 
 let position = 0;
 let dotIndex = 0;
@@ -72,3 +74,26 @@ dots.forEach((dot, index) => {
         thisSlide(dotIndex);
     });
 });
+
+let request = new XMLHttpRequest();
+request.open('GET', 'https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline', true);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    let data = JSON.parse(request.response);
+    for(let i = 0; i < data.length; i++){
+        if(data[i].price < 5){
+            //console.log(data[i].name + data[i].price);
+            //console.log(i);
+            let arr = data[i];
+            //console.log(arr);
+            sliderText.forEach((n) => n.textContent = arr.name);
+            sliderAuthor.forEach((n) => n.textContent = arr.price);
+        }
+    }
+  } else {
+    console.log(request.status + "Ошибка")
+  }
+};
+
+request.send();

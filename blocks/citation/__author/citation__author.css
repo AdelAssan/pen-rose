@@ -3,4 +3,15 @@
     text-align: right;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
+    position: relative;
+}
+
+.citation__author_tire{
+    color: #3899FA;
+    text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 65px;
+    right: 47px;
 }

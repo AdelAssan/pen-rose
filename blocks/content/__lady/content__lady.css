@@ -2,7 +2,7 @@
     position: absolute;
     top: -95px;
     left: 428px;
-    z-index: 5;
+    z-index: 3;
 }
 
 @media screen and (max-width: 1305px){

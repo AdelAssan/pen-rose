@@ -21,9 +21,3 @@
         max-width: 860px;
     }
 }
-
-@media screen and (max-width: 550px){
-    .header{
-        margin-bottom: 100px;
-    }
-}

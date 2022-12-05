@@ -21,3 +21,18 @@
     font-size: 18px;
     margin: 10px;
 }
+
+@media screen and (max-width: 601px){
+    .header__dropdown_active{
+        top: 42px;
+        right: 180px;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .header__dropdown_active{
+        top: 42px;
+        right: 150px;
+        padding: 0;
+    }
+}
