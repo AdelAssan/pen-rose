@@ -1,0 +1,23 @@
+.header__burger{
+    background-image: url(../../../images/burger.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: inherit;
+    display: none;
+}
+
+@media screen and (max-width: 550px){
+    .header__burger{
+        display: block;
+        margin: 0 0 0 90%;
+    }
+
+    .header__burger:hover{
+        background-color: rgba(255, 0, 255, 0.24);
+        padding: 10px;
+        background-image: url(../../../images/burger_hover.svg);
+    }
+}

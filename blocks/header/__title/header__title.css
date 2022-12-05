@@ -7,3 +7,35 @@
     top: 30px;
     left: 180px;
 }
+
+@media screen and (max-width: 1025px){
+    .header__title {
+        font-size: 54px;
+        top: 20px;
+        left: 105px;
+    }
+  }
+
+  @media screen and (max-width: 870px){
+    .header__title {
+        font-size: 34px;
+        top: 15px;
+        left: 75px;
+    }
+  }
+
+  @media screen and (max-width: 660px){
+    .header__title {
+        font-size: 30px;
+        top: 20px;
+        left: 60px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .header__title {
+        font-size: 27px;
+        top: 15px;
+        left: 45px;
+    }
+  }

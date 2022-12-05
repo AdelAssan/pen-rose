@@ -1,0 +1,22 @@
+.citation__dots{
+    display: flex;
+    justify-content: center;
+}
+
+.citation__dots_non-active{
+    opacity: 0.5;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.citation__dots_non-active:active{
+    opacity: 1;
+}
+
+.citation__dots_active{
+    opacity: 1;
+}

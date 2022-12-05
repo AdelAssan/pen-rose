@@ -6,3 +6,23 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 860px){
+    .header__home{
+        font-size: 16px;
+        line-height: 18px;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .header__home{
+        font-size: 13px;
+        line-height: 14px;
+    }
+  }
+
+  @media screen and (max-width: 355px){
+    .header__home{
+        margin: 5px 0 0 10px;
+    }
+  }

@@ -1,12 +1,13 @@
 .content__triangle{
     background-image: url(../../../images/Triangle.svg);
     background-size: 680px 589px;
+    background-repeat: no-repeat;
     height: 589px;
     width: 680px;
     position: absolute;
-    top: 255px;
+    top: 90px;
     z-index: 3;
-    left: 623px;
+    left: 377px;
     opacity: 1;
 }
 
@@ -17,9 +18,9 @@
     height: 695px;
     width: 810px;
     position: absolute;
-    top: 200px;
+    top: 35px;
     z-index: 2;
-    left: 560px;
+    left: 314px;
     opacity: 0.5;
 }
 
@@ -30,7 +31,241 @@
     height: 650px;
     width: 600px;
     position: absolute;
-    top: 130px;
+    top: -25px;
     z-index: 1;
-    left: 610px;
+    left: 364px;
+}
+
+@media screen and (max-width: 1305px){
+    .content__triangle{
+        left: 327px;
+    }
+    
+    .content__triangle_glow{
+        left: 264px;
+    }
+    
+    .content__triangle_shadow{
+        left: 314px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .content__triangle{
+        left: 287px;
+    }
+    
+    .content__triangle_glow{
+        left: 224px;
+    }
+    
+    .content__triangle_shadow{
+        left: 274px;
+    }
+}
+
+@media screen and (max-width: 1210px){
+    .content__triangle{
+        left: 247px;
+    }
+    
+    .content__triangle_glow{
+        left: 184px;
+    }
+    
+    .content__triangle_shadow{
+        left: 234px;
+    }
+}
+
+@media screen and (max-width: 1175px){
+    .content__triangle{
+        left: 217px;
+    }
+    
+    .content__triangle_glow{
+        left: 154px;
+    }
+    
+    .content__triangle_shadow{
+        left: 204px;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .content__triangle{
+        left: 177px;
+    }
+    
+    .content__triangle_glow{
+        left: 114px;
+    }
+    
+    .content__triangle_shadow{
+        left: 164px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .content__triangle{
+        left: 137px;
+        background-size: 640px 549px;
+        height: 549px;
+        width: 640px;
+    }
+    
+    .content__triangle_glow{
+        left: 74px;
+        background-size: 770px 655px;
+        height: 655px;
+        width: 770px;
+    }
+    
+    .content__triangle_shadow{
+        left: 124px;
+        background-size: 560px 610px;
+        height: 610px;
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 975px){
+    .content__triangle{
+        left: 127px;
+        background-size: 580px 480px;
+        height: 480px;
+        width: 580px;
+    }
+    
+    .content__triangle_glow{
+        left: 80px;
+        background-size: 680px 570px;
+        height: 570px;
+        width: 680px;
+        top: 45px;
+    }
+    
+    .content__triangle_shadow{
+        left: 124px;
+        background-size: 520px 570px;
+        height: 570px;
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .content__triangle{
+        right: 20px;
+    }
+    
+    .content__triangle_glow{
+        right: 0;
+    }
+    
+    .content__triangle_shadow{
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .content__triangle{
+        background-size: 520px 420px;
+        height: 420px;
+        width: 520px;
+    }
+    
+    .content__triangle_glow{
+        background-size: 620px 510px;
+        height: 510px;
+        width: 620px;
+    }
+    
+    .content__triangle_shadow{
+        background-size: 460px 510px;
+        height: 510px;
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .content__triangle{
+        background-size: 430px 330px;
+        height: 330px;
+        width: 430px;
+    }
+    
+    .content__triangle_glow{
+        background-size: 520px 400px;
+        height: 400px;
+        width: 520px;
+        right: 25px;
+        top: 55px;
+    }
+    
+    .content__triangle_shadow{
+        background-size: 410px 460px;
+        height: 460px;
+        width: 410px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content__triangle{
+        background-size: 390px 290px;
+        height: 290px;
+        width: 390px;
+        top: 35px;
+        right: 50px;
+    }
+    
+    .content__triangle_glow{
+        display: none;
+    }
+    
+    .content__triangle_shadow{
+        background-size: 380px 430px;
+        height: 430px;
+        width: 380px;
+        top: 10px;
+        right: 45px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content__triangle{
+        background-size: 370px 270px;
+        height: 270px;
+        width: 370px;
+        left: 70px;
+    }
+    
+    .content__triangle_shadow{
+        background-size: 360px 410px;
+        height: 410px;
+        width: 360px;
+        left: 75px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .content__triangle{
+        background-size: 320px 220px;
+        height: 220px;
+        width: 320px;
+        top: 20px;
+    }
+    
+    .content__triangle_shadow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .content__triangle{
+        background-size: 260px 170px;
+        height: 170px;
+        width: 260px;
+        top: 50px;
+        left: 40px;
+    }
 }

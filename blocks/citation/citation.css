@@ -1,7 +1,61 @@
 .citation{
     position: absolute;
-    top: 220px;
-    right: 320px;
+    top: 7%;
+    right: 4%;
     padding: 10px;
     text-align: center;
+}
+
+@media screen and (max-width: 1370px){
+    .citation{
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 1335px){
+    .citation{
+        right: 0;
+        max-width: 410px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .citation{
+        left: 0;
+        top: 330px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .citation{
+        top: 270px;
+    }
+}
+
+@media screen and (max-width: 626px){
+    .citation{
+        max-width: 390px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .citation{
+        top: 500px;
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .citation{
+        left: 0;
+        top: 440px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .citation{
+        left: 0;
+        top: 500px;
+    }
 }

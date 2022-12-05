@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <script src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./pages/index.css">
 </head>
-
 <body>
     <div class="page">
         <header class="header">
@@ -17,19 +15,19 @@
                 <div class="header__logo_left"><div></div></div>
             </div>
            <h1 class="header__title">penrose</h1>
-           <nav class="header__nav">
-                <p class="header__home">home</p>
-                <a class="header__link" href="#">new collections</a>
-                <button class="header__link header__link_btn" onclick="myFunction()">store<span id="arrow" class="header__link_arrow"></span></button>
-                <div class="header__dropdown" id="myDropdown">
-                    <a href="#women" class="header__dropdown_link">Women</a>
-                    <a href="#men" class="header__dropdown_link">Men</a>
-                    <a href="#kids" class="header__dropdown_link">Kids</a>
-                </div>
-                <a class="header__link" href="#">contacts</a>
-           </nav>
+           <nav class="header__nav" id="nav">
+            <p class="header__home">home</p>
+            <a class="header__link" href="#">new collections</a>
+            <button class="header__link header__link_btn" onclick="myFunction()">store<span id="arrow" class="header__link_arrow"></span></button>
+            <div class="header__dropdown" id="myDropdown">
+                <a href="#women" class="header__dropdown_link">Women</a>
+                <a href="#men" class="header__dropdown_link">Men</a>
+                <a href="#kids" class="header__dropdown_link">Kids</a>
+            </div>
+            <a class="header__link" href="#">contacts</a>
+       </nav>
+       <button class="header__burger" onclick="burgerHandle()"></button>
         </header>
-
         <main class="content">
             <div class="content__triangle_shadow"></div>
             <div class="content__triangle_glow"></div>
@@ -38,35 +36,42 @@
             <img class="content__lady" src="./images/Model@2x.png" alt="Model image">
             <iframe id="ytplayer" type="text/html" class="content__iframe" src="https://www.youtube.com/embed/POe9SOEKotk"
              frameborder="0" allowfullscreen></iframe>
-            <div class="citation">
-                <button class="citation__button-left"></button>
+             <div class="citation">
+                <button class="citation__button-left citation__button_none" id="button"></button>
                 <div class="citation__wrapper">
                     <div class="citation__slider">
                     <div class="citation__container">
                        <p class="citation__quote"></p>
-                       <p class="citation__text">jkhdfkjsdhfkjsdhfkjsdfhksdjhfsdkjfhksdjhfkusdfhksefjd</p>
-                       <p class="citation__author">fdhbdfgdf</p>
+                       <p class="citation__text">jkhdfkjsdhfkjsdhfkjsdfhksdjhfsdkjfhksdjhfkusdfhksefjdk
+                        klfdlkjfsduhjkregoijrguhjkfdsjkyujytujytjyj
+                       </p>
+                       <p class="citation__author">&#8212; fdhbdfgdf</p>
                     </div>
                     <div class="citation__container">
                        <p class="citation__quote"></p>
-                       <p class="citation__text">jkhdfkjsdhfkjsdhfkjsdfhksdjhfsdkjfhksdjhfkusdfhksefjd</p>
-                       <p class="citation__author">fdhbdfgdf</p>
+                       <p class="citation__text">jkhdfkjsdhfkjsdhfkjsdfhksdjhfsdkjfhksdjhfkusdfhksefjdfdgdf
+                        fghfgh.kmf/d.,fdlk
+                       </p>
+                       <p class="citation__author">&#8212; fdhbdfgdf</p>
                     </div>
                     <div class="citation__container">
                        <p class="citation__quote"></p>
-                       <p class="citation__text">jkhdfkjsdhfkjsdhfkjsdfhksdjhfsdkjfhksdjhfkusdfhksefjd</p>
-                       <p class="citation__author">fdhbdfgdf</p>
+                       <p class="citation__text">jkhdfkjsdhfkjsdhfkjsdfhksdjhfsdkjfhksdjhfkusdfhksefjdhgjkgj
+                        dfgdfg.dfzlkgmfl.dzgmf.,dgaaaaaaaaaaaaaaaa
+                       </p>
+                       <p class="citation__author">&#8212; fdhbdfgdf</p>
                     </div>
-                <button class="citation__button-right"></button>
+                </div>
+            </div>
+                <button class="citation__button-right" id="button"></button>
                 <div class="citation__dots">
-                    <p class="citation__dot"></p>
-                    <p class="citation__dot"></p>
-                    <p class="citation__dot"></p>
-                </div>
-                </div>
+                    <p class="citation__dots_non-active citation__dots_active"></p>
+                    <p class="citation__dots_non-active"></p>
+                    <p class="citation__dots_non-active"></p>
                 </div>
             </div>
         </main>
         </div>
+        <script src="./pages/index.js"></script>
 </body>
 </html>

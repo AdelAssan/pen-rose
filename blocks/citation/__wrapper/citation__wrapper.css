@@ -1,4 +1,7 @@
 .citation__wrapper{
+    width: 310px;
+    height: 170px;
     overflow: hidden;
-    width: 100px;
+    position: relative;
+    z-index: 4;
 }
