@@ -8,6 +8,7 @@
     top: 0;
     height: 168px;
     background-color: #292929;
+    z-index: 2;
 }
 
 @media screen and (max-width: 1305px){

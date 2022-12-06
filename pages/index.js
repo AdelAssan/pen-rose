@@ -83,10 +83,6 @@ dots.forEach((dot, index) => {
     });
 });
 
-function qwerty(evt){
-    console.log(evt.target.classList)
-}
-
 //Api
 
 let request = new XMLHttpRequest();
