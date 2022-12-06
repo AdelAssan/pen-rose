@@ -26,16 +26,45 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 601px){
+@media screen and (max-width: 1026px){
     .header__dropdown_active{
-        top: 42px;
-        right: 180px;
+        top: calc(10% - 150px);
+        right: 160px;
+    }
+}
+
+@media screen and (max-width: 976px){
+    .header__dropdown_active{
+        top: calc(10% - 100px);
+    }
+}
+
+@media screen and (max-width: 701px){
+    .header__dropdown_active{
+        top: calc(10% - 85px);
+        font-size: 16px;
+        margin: 0;
+        right: 140px;
+    }
+}
+
+@media screen and (max-width: 701px){
+    .header__dropdown_active{
+        top: calc(10% - 70px);
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .header__dropdown_active{
+        top: calc(10% - 110px);
+        right: 80px;
     }
 }
 
 @media screen and (max-width: 355px){
     .header__dropdown_active{
-        top: 42px;
+        top: calc(10% - 150px);
         right: 150px;
         padding: 0;
     }
