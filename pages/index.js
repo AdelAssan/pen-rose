@@ -8,6 +8,8 @@ const sliderAuthor = document.querySelectorAll('.citation__author');
 let position = 0;
 let dotIndex = 0;
 
+//Функции
+//Функции выпадающего и бургер меню
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("header__dropdown_active");
     document.getElementById("arrow").classList.toggle("header__link_arrow_active");
@@ -22,9 +24,11 @@ function burgerHandle(){
     }
 }
 
+//Функции переключения стрелок слайдера
+
 const nextSlide = () => {
-    if(position < (dots.length - 1) * 320){
-        position += 320;
+    if(position < (dots.length - 1) * 260){
+        position += 260;
         dotIndex++
     }else{
         position = 0;
@@ -37,15 +41,17 @@ const nextSlide = () => {
 
 const prevSlide = () => {
     if(position > 0){
-        position -= 320;
+        position -= 260;
         dotIndex--
     }else{
-        position = (dots.length - 1) * 320;
-        dotIndex = (dots.length -1);
+        position = (dots.length - 1) * 260;
+        dotIndex = (dots.length - 1);
     }
     sliderLine.style.left = -position + 'px';
     thisSlide(dotIndex);
 }
+
+//Индикаторы и стрелки
 
 const thisSlide = (index) => {
     for(let dot of dots){
@@ -63,17 +69,25 @@ const thisSlide = (index) => {
     }
 }
 
+//слушатели
+
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
-        position = 320 * index;
+        position = 260 * index;
         sliderLine.style.left = -position + 'px';
         dotIndex = index;
         thisSlide(dotIndex);
     });
 });
+
+function qwerty(evt){
+    console.log(evt.target.classList)
+}
+
+//Api
 
 let request = new XMLHttpRequest();
 request.open('GET', 'https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline', true);

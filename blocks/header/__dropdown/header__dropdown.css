@@ -6,7 +6,8 @@
     display: block;
     background-color: white;
     position: absolute;
-    top: 52px;
+    z-index: 10;
+    top: 50px;
     display: flex;
     flex-direction: column;
     right: 120px;
@@ -20,6 +21,7 @@
     font-weight: 600;
     font-size: 18px;
     margin: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 601px){

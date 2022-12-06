@@ -1,9 +1,15 @@
+.citation__author, .citation__author_tire{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
 .citation__author{
     color: #3899FA;
     text-align: right;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    position: relative;
+    margin: 0;
 }
 
 .citation__author_tire{
@@ -11,7 +17,6 @@
     text-align: right;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    position: absolute;
-    top: 65px;
-    right: 47px;
+    margin: 0;
+    padding: 0 7px 0 170px;
 }
